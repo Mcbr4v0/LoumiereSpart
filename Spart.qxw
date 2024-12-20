@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.1</Version>
+  <Author>boude</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <BeatGenerator BeatType="Disabled" BPM="0"/>
+   <Universe Name="Universe 1" ID="0">
+    <Output Plugin="DMX USB" UID="None" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3">
+    <Output Plugin="Loopback" UID="Loopback 1" Line="0"/>
+   </Universe>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Gros Par</Model>
+   <Mode>Classique</Mode>
+   <ID>0</ID>
+   <Name>Contre Jardin Ext</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Gros Par</Model>
+   <Mode>Classique</Mode>
+   <ID>1</ID>
+   <Name>Contre Jardin Cent</Name>
+   <Universe>0</Universe>
+   <Address>8</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Gros Par</Model>
+   <Mode>Classique</Mode>
+   <ID>2</ID>
+   <Name>Contre Cour Cent</Name>
+   <Universe>0</Universe>
+   <Address>16</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Gros Par</Model>
+   <Mode>Classique</Mode>
+   <ID>3</ID>
+   <Name>Contre Cour Ext</Name>
+   <Universe>0</Universe>
+   <Address>24</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPAR Q12BT</Model>
+   <Mode>4 Channel</Mode>
+   <ID>4</ID>
+   <Name>Lat ARR jardin</Name>
+   <Universe>0</Universe>
+   <Address>32</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPAR Q12BT</Model>
+   <Mode>4 Channel</Mode>
+   <ID>5</ID>
+   <Name>Lat AVA Jardin</Name>
+   <Universe>0</Universe>
+   <Address>36</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPAR Q12BT</Model>
+   <Mode>4 Channel</Mode>
+   <ID>6</ID>
+   <Name>Lat ARR Cour</Name>
+   <Universe>0</Universe>
+   <Address>40</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Chauvet</Manufacturer>
+   <Model>SlimPAR Q12BT</Model>
+   <Mode>4 Channel</Mode>
+   <ID>7</ID>
+   <Name>Lat AVA Cour</Name>
+   <Universe>0</Universe>
+   <Address>44</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Gros Par</Model>
+   <Mode>Classique</Mode>
+   <ID>8</ID>
+   <Name>Face Jardin</Name>
+   <Universe>0</Universe>
+   <Address>96</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Gros Par</Model>
+   <Mode>Classique</Mode>
+   <ID>9</ID>
+   <Name>Face Cour</Name>
+   <Universe>0</Universe>
+   <Address>104</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Gros Par</Model>
+   <Mode>Classique</Mode>
+   <ID>10</ID>
+   <Name>Douche Théâtre</Name>
+   <Universe>0</Universe>
+   <Address>112</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Parbatterie</Model>
+   <Mode>6ch</Mode>
+   <ID>11</ID>
+   <Name>Petti Lat ARR Jardin</Name>
+   <Universe>0</Universe>
+   <Address>48</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Parbatterie</Model>
+   <Mode>6ch</Mode>
+   <ID>12</ID>
+   <Name>Petti Lat AVA Jardin</Name>
+   <Universe>0</Universe>
+   <Address>54</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Parbatterie</Model>
+   <Mode>6ch</Mode>
+   <ID>13</ID>
+   <Name>Petti Lat ARR cour</Name>
+   <Universe>0</Universe>
+   <Address>60</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Parbatterie</Model>
+   <Mode>6ch</Mode>
+   <ID>14</ID>
+   <Name>Petti Lat AVA Cour</Name>
+   <Universe>0</Universe>
+   <Address>66</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Parbatterie</Model>
+   <Mode>6ch</Mode>
+   <ID>15</ID>
+   <Name>Petti Lat Sol ARR Jardin</Name>
+   <Universe>0</Universe>
+   <Address>72</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Parbatterie</Model>
+   <Mode>6ch</Mode>
+   <ID>16</ID>
+   <Name>Petti Lat Sol AVA Jardin</Name>
+   <Universe>0</Universe>
+   <Address>78</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Parbatterie</Model>
+   <Mode>6ch</Mode>
+   <ID>17</ID>
+   <Name>Petti Lat Sol ARR Cour</Name>
+   <Universe>0</Universe>
+   <Address>84</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Parbatterie</Model>
+   <Mode>6ch</Mode>
+   <ID>18</ID>
+   <Name>Petti Lat Sol AVA Cour Sol</Name>
+   <Universe>0</Universe>
+   <Address>90</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Parbatterie</Model>
+   <Mode>6ch</Mode>
+   <ID>19</ID>
+   <Name>Douche Jardin</Name>
+   <Universe>0</Universe>
+   <Address>120</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Parbatterie</Model>
+   <Mode>6ch</Mode>
+   <ID>20</ID>
+   <Name>Douche Cour</Name>
+   <Universe>0</Universe>
+   <Address>126</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Parbatterie</Model>
+   <Mode>6ch</Mode>
+   <ID>21</ID>
+   <Name>Douche ARR</Name>
+   <Universe>0</Universe>
+   <Address>132</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Lyre</Model>
+   <Mode>24ch</Mode>
+   <ID>25</ID>
+   <Name>Lyre Cour</Name>
+   <Universe>0</Universe>
+   <Address>138</Address>
+   <Channels>24</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Lyre</Model>
+   <Mode>24ch</Mode>
+   <ID>26</ID>
+   <Name>Lyre Jardin</Name>
+   <Universe>0</Universe>
+   <Address>162</Address>
+   <Channels>24</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>27</ID>
+   <Name>Face trad</Name>
+   <Universe>0</Universe>
+   <Address>186</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Centrale</Manufacturer>
+   <Model>Smoke</Model>
+   <Mode>Normal</Mode>
+   <ID>28</ID>
+   <Name>Smoke</Name>
+   <Universe>0</Universe>
+   <Address>187</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Function ID="0" Type="Scene" Name="Pleins feu">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,0,5,0,6,0,7,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,0,5,0,6,0,7,255</FixtureVal>
+   <FixtureVal ID="0">0,255,7,255</FixtureVal>
+   <FixtureVal ID="1">0,255,7,255</FixtureVal>
+   <FixtureVal ID="20">0,0,1,0,2,0,3,254,4,0,5,0</FixtureVal>
+   <FixtureVal ID="21">0,0,1,0,2,0,3,255,4,0,5,0</FixtureVal>
+   <FixtureVal ID="19">0,0,1,0,2,0,3,255,4,0,5,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,0,2,0,3,0,4,0,5,0,6,0,7,255</FixtureVal>
+   <FixtureVal ID="9"/>
+   <FixtureVal ID="8"/>
+   <FixtureVal ID="6">0,0,1,0,2,0,3,255</FixtureVal>
+   <FixtureVal ID="16"/>
+   <FixtureVal ID="18"/>
+   <FixtureVal ID="15"/>
+   <FixtureVal ID="12"/>
+   <FixtureVal ID="17"/>
+   <FixtureVal ID="11"/>
+   <FixtureVal ID="14"/>
+   <FixtureVal ID="13"/>
+   <FixtureVal ID="5"/>
+   <FixtureVal ID="7"/>
+   <FixtureVal ID="4"/>
+  </Function>
+  <Function ID="1" Type="EFX" Name="Nouvel EFX 1">
+   <Fixture>
+    <ID>26</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>25</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line</Algorithm>
+   <Width>110</Width>
+   <Height>110</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="2" Type="Scene" Name="New Scene" Hidden="True">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="25">6,0,8,0</FixtureVal>
+   <FixtureVal ID="26">6,0,8,0</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Sequence" Name="Nouvelle séquence 3" BoundScene="2">
+   <Speed FadeIn="0" FadeOut="0" Duration="140"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0" Values="4">25:6,255,8,255</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0" Values="4">26:6,255,8,255</Step>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
